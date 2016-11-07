@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:text="짧은 통지 간격은 많은양의 데이터요금을 소모하게 됩니다. 데이터요금이 충분하지 않으시면 짧은 간격은 추천드리지 않습니다."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="통지 간격 입력 (분단위)"/>
+    <EditText
+        android:id="@+id/time_term"
+        android:inputType="number"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="5"/>
+    
+</LinearLayout>

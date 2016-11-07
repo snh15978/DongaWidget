@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\snh15\AndroidStudioProjects\DongaWidget (4)\app\libs\jericho-android.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9d53e9eeea55b5b67e78a0c94e1a1ac8b357ffc">
+        <dex dex="C:\Users\snh15\AndroidStudioProjects\DongaWidget (4)\app\build\intermediates\pre-dexed\debug\jericho-android.3.1_f9b4ecfdb68b1ae6c7134d7daf9886924fd0b216.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\snh15\AndroidStudioProjects\DongaWidget (4)\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="27b427cee0cc52a071f7d2349e363baf080e202c">
+        <dex dex="C:\Users\snh15\AndroidStudioProjects\DongaWidget (4)\app\build\intermediates\pre-dexed\debug\instant-run_614f706828238a608046656649c71575fb3d74ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\snh15\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Users\snh15\AndroidStudioProjects\DongaWidget (4)\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_bb51fc687ab911b294dd8d728d064ff05a8e81c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\snh15\AndroidStudioProjects\DongaWidget (4)\app\libs\barcode4j.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="68c9e295cdcf030e2681339c1c6ecf73476e4ec2">
+        <dex dex="C:\Users\snh15\AndroidStudioProjects\DongaWidget (4)\app\build\intermediates\pre-dexed\debug\barcode4j_d5d2d5f0e1a1028924fabf83ba827fd53123cf33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\snh15\AndroidStudioProjects\DongaWidget (4)\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c231371d5fffead6e09ee389c5ed5f7ec88ea677">
+        <dex dex="C:\Users\snh15\AndroidStudioProjects\DongaWidget (4)\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_f9793e30711fa5d53c6dc8d7e81a3f981e4870c5.jar" />
+    </item>
+
+</items>

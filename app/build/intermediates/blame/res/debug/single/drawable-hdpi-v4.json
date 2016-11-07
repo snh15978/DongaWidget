@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bgblue.xml",
+        "source": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\src\\main\\res\\drawable-hdpi\\bgblue.xml"
+    },
+    {
+        "merged": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bgdialog.xml",
+        "source": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\src\\main\\res\\drawable-hdpi\\bgdialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rounded_corner_yellow.xml",
+        "source": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\src\\main\\res\\drawable-hdpi\\rounded_corner_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\rounded_corner.xml",
+        "source": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\src\\main\\res\\drawable-hdpi\\rounded_corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\transparent.xml",
+        "source": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\src\\main\\res\\drawable-hdpi\\transparent.xml"
+    },
+    {
+        "merged": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\back.jpg",
+        "source": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\src\\main\\res\\drawable-hdpi\\back.jpg"
+    },
+    {
+        "merged": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\bgblue_round.xml",
+        "source": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\src\\main\\res\\drawable-hdpi\\bgblue_round.xml"
+    }
+]

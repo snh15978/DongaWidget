@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    >
+    <TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="도서관 홈페이지에서 성공적인 로그인을 하여야 해당 기능을 사용할수 있습니다."/>
+    <TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:textColor="#FFFF0000"
+	    android:text="자동로그인 기능을 사용하지 않을경우 연장 및 연체 알림을 받을수 없습니다."/>
+    <CheckBox
+        android:id="@+id/book_auto_login_check"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:checked="true"
+	    android:text="자동로그인"/>
+</LinearLayout>

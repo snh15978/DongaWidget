@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="146dip"
+    android:minHeight="146dip"
+    android:updatePeriodMillis="21600000"
+    android:initialLayout="@layout/activity_widget_carte"
+    android:configure="univ.donga.dw.widget.WidgetCarteConfigTwoTwoActivity">
+</appwidget-provider>

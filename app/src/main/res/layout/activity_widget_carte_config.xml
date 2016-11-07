@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/widget_carte_config_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <Button
+                android:id="@+id/widget_carte_config_make_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="위젯 만들기"/>
+            
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

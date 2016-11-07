@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+    
+    <LinearLayout 
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+        
+    <LinearLayout
+        android:layout_height="fill_parent"
+        android:layout_width="200dp"
+        android:orientation="vertical">
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingRight="15dp"
+		        android:text="이름"/>
+            <EditText
+                android:id="@+id/profileNameEdit"
+                android:layout_width="0px"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:background="#ffffff"
+		        android:hint="이름"
+		        android:singleLine="true"
+		        android:textColor="#000000"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingRight="15dp"
+		        android:text="학과"/>
+            <EditText
+                android:id="@+id/profileMajorEdit"
+                android:layout_width="0px"
+		        android:layout_height="wrap_content"
+		        android:layout_weight="1"
+		        android:background="#ffffff"
+		        android:singleLine="true"
+		        android:hint="학과"		        
+		        android:textColor="#000000"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingRight="15dp"
+		        android:text="학번"/>
+            <EditText
+                android:id="@+id/profileStudentNumberEdit"
+                android:layout_width="0px"
+		        android:layout_height="wrap_content"
+		        android:background="#ffffff"
+		        android:layout_weight="1"
+		        android:hint="학번"
+		        android:singleLine="true"
+		        android:inputType="number"
+		        android:textColor="#000000"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button 
+            android:id="@+id/profileEditOKBtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="확인" />
+        <Button
+            android:id="@+id/profileEditCancelBtn" 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="취소" />
+    </LinearLayout>
+
+    
+    
+    </LinearLayout>
+
+</LinearLayout>

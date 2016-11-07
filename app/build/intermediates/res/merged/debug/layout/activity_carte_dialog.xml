@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+   
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+   	    android:orientation="vertical"
+   	    android:background="@drawable/bgdialog"
+   	    android:padding="10dp"
+   	    android:layout_margin="10dp" >
+    
+    <TextView
+        android:id="@+id/carteDialogLocation"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dip"
+        android:textColor="#000000"
+        />
+    
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"        
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#4374D9"/>
+    
+    <TextView
+        android:id="@+id/carteDialogMenu"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dip"
+        android:textColor="#000000"
+        />
+	</LinearLayout>
+	
+    <ImageView 
+        android:src="@drawable/icon_blue_star"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>    
+    <ImageView 
+        android:layout_gravity="right"
+        android:src="@drawable/icon_blue_star"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>    
+    <ImageView 
+        android:layout_gravity="bottom|left"
+        android:src="@drawable/icon_blue_star"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+    <ImageView 
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/icon_blue_star"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+</FrameLayout>

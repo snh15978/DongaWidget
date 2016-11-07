@@ -1,0 +1,136 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity" >
+    
+    <FrameLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">        
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="학 생 증"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:background="#0066ff"/>
+    <Button 
+        android:id="@+id/profileEditBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:layout_marginRight="15dp"
+        android:text="편집"/>
+    </FrameLayout>
+    <View 
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#3399ff"/>
+    
+    <LinearLayout 
+        android:layout_height="0px"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal">
+    
+    <ImageView
+        android:id="@+id/profile_icon" 
+        android:src="@drawable/profile_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+    
+    <LinearLayout
+        android:background="@drawable/rounded_corner" 
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="25dp"
+        android:paddingLeft="15dp"
+        android:orientation="vertical">
+        
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingRight="15dp"
+		        android:text="이름"/>
+            <TextView
+                android:id="@+id/profileNameText"
+                android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="이름"
+		        android:textColor="#000000"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingRight="15dp"
+		        android:text="학과"/>
+            <TextView
+                android:id="@+id/profileMajorText"
+                android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="학과"
+		        android:textColor="#000000"/>
+        </LinearLayout>
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingRight="15dp"
+		        android:text="학번"/>
+            <TextView
+                android:id="@+id/profileStudentNumberText"
+                android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="학번"
+		        android:textColor="#000000"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="right"
+	        android:paddingRight="10dp"
+	        android:text="※ 이 학생증은 실제 학생증의 효력이 없습니다."/>
+    
+    </LinearLayout>
+    </LinearLayout>
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:baselineAligned="false">
+        <ImageView 
+            android:id="@+id/barCodeImage"
+            android:layout_width="wrap_content"            
+            android:layout_height="wrap_content"/>
+        <ImageView 
+            android:src="@drawable/donga_title"
+            android:layout_width="0px"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"/>
+        
+    </LinearLayout>
+
+</LinearLayout>

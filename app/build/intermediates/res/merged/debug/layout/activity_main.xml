@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:columnWidth="128dp"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        android:verticalSpacing="15dp"
+        android:horizontalSpacing="15dp"
+        android:numColumns="3"
+        android:stretchMode="columnWidth" >
+    </GridView>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:drawableTop="@drawable/app_icon_in"
+        android:text="Login"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:drawableTop="@drawable/app_icon_out"
+        android:text="Logout"
+        android:visibility="gone" />
+
+</LinearLayout>

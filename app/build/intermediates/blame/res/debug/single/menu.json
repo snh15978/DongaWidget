@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\build\\intermediates\\res\\merged\\debug\\menu\\seat.xml",
+        "source": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\src\\main\\res\\menu\\seat.xml"
+    },
+    {
+        "merged": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\build\\intermediates\\res\\merged\\debug\\menu\\pulltorefresh.xml",
+        "source": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\src\\main\\res\\menu\\pulltorefresh.xml"
+    },
+    {
+        "merged": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\build\\intermediates\\res\\merged\\debug\\menu\\widget_carte.xml",
+        "source": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\src\\main\\res\\menu\\widget_carte.xml"
+    },
+    {
+        "merged": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\build\\intermediates\\res\\merged\\debug\\menu\\book.xml",
+        "source": "C:\\Users\\snh15\\AndroidStudioProjects\\DongaWidget (4)\\app\\src\\main\\res\\menu\\book.xml"
+    }
+]
